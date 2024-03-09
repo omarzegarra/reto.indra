@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS monto (id INT NOT NULL AUTO_INCREMENT, monto NUMERIC(20, 2) NULL, tipo_cambio NUMERIC(20, 2) NULL, moneda_origen VARCHAR(255), moneda_destino VARCHAR(255) , PRIMARY KEY (id));
